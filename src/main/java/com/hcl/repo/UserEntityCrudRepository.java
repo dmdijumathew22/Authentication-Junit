@@ -7,6 +7,6 @@ import com.hcl.model.UserEntity;
 
 
 @Repository
-public interface UserEntityCrudRepository extends CrudRepository<UserEntity, String> {
+public interface UserEntityCrudRepository extends CrudRepository<UserEntity,String> {
 
 }

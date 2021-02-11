@@ -11,7 +11,7 @@
 		<h2>User Search</h2>
 
 		<div style="color:red">${msg}</div>
-		<form id="find" action="${pageContext.request.contextPath }/user/find" method="post">
+		<form id="find" action="${pageContext.request.contextPath }/user/login" method="post">
 			<table style="with: 50%">
 				<tr>
 					<td>Enter User ID</td>

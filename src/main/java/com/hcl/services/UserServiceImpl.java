@@ -17,7 +17,7 @@ public class UserServiceImpl implements UserService {
 	private  UserEntityCrudRepository userEntityCrudRepository;
 
 	@Override
-	public UserEntity update(UserEntity user) {
+	public UserEntity save(UserEntity user) {
 		return userEntityCrudRepository.save(user);
 		
 	}
@@ -38,4 +38,5 @@ public class UserServiceImpl implements UserService {
 		return false;
 	}
 
+	
 }
